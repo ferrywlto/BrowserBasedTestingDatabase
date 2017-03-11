@@ -1,0 +1,2784 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="description" content="DBDesigner4 HTML Report">
+  <title>DBDesigner4 HTML Report</title>
+  <style>
+/* Links defaults */
+
+a {color:#000000; text-decoration: underline;}
+a:hover { text-decoration: none; color: #ff0000; text-decoration: underline}
+
+/* Scrollers */
+body, textarea {
+  scrollbar-base-color:#eeeeee;
+  scrollbar-3dlight-color:#62708A;
+  scrollbar-arrow-color:#62708A;
+  scrollbar-darkshadow-color:#000000;
+  scrollbar-face-color:#eeeeee;
+  scrollbar-highlight-color:#ffffff;
+  scrollbar-shadow-color:#aaaaaa;
+  scrollbar-track-color:#eeeeee;}
+
+/* NoMargins */
+body { margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px }
+
+/* General Font */
+div, p, td {font-family: Tahoma, Verdana, Arial, MS Sans Serif; color: black; font-size: 11px}
+
+/* Fonts */
+.fontNB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 11px; font-weight: 700}
+.fontL {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 12px}
+.fontX {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 14px; font-weight: 700}
+.fontXB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 16px; font-weight: 700}
+.fontS {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 10px; font-weight: 500}
+.fontSB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 10px; font-weight: 700}
+
+  </style>
+</head>
+
+<body>
+
+<p class="fontX">Database Model plugin_tmp.xml<hr></p>
+
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">BandType
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idBandType</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Band type ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">btName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Band type name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">btDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Band type description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idBandType<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Category
+     <font class="fontS"><br>Category can be one of [ Message, Media Player, Internet, Game, Main Menu, Phonebook, Idle Screen, Accessory, Camera, Ringtone, Connectivity, USB, Recent Calls, Settings, Multimedia]<br>(Inclusive, but not limited to.)</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idCategory</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Category ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">cName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Category Name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">cDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Category Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idCategory<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">MS_CSD_Profile
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idMS_CSD_Profile</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of the CSD profile for Mobile Subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the profile belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpWAP_URL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(100)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP Homepage URL of mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpWAP_IP</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP IP of CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpWAP_Port</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP Port number of CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpDialUp</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Dial-Up number of CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpUsername</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Username of CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Password of CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpSpeed</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Speed (bps) in CSD profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpLineType</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Line type 1 in CSD progile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idMS_CSD_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">MS_CSD_Profile_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mcpOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">MS_GPRS_Profile
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idMS_GPRS_Profile</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the profile belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpWAP_URL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(100)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP URL of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpWAP_IP</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP IP of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpWAP_Port</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">WAP Port of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpDialUp</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Dial-up number of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpAPN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">APN of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpUsername</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Username of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Password of GPRS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idMS_GPRS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">MS_GPRS_Profile_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mgpOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">MS_MMS_Profile
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idMS_MMS_Profile</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the profile belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpMMS_URL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(100)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS Homepage URL of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpMMS_IP</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS WAP IP of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpMMS_Port</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS Port number of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpGPRS_APN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS GPRS APN of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpUsername</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Username of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Password of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpMMS_ServerName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS Server name of MMS profile in mobile subscriber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idMS_MMS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">MS_MMS_Profile_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">mmpOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Operator
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idOperator</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of mobile subscriber operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">oName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(30)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">oMSMailbox</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Contact number to listen voice mail dialing from mobile phone</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">oSLMailbox</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Contact number to listen voice mail via dialing from home subscription line</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">PC_CSD_Profile
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idPC_CSD_Profile</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of CSD profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the profile belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpDialUp</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Dial up number of CSD profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpRoaming</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Roaming dial up number of CSD profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpUsername</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Username of CSD profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Password of CSD profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idPC_CSD_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PC_CSD_Profile_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pcpOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">PC_GPRS_Profile
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idPC_GPRS_Profile</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of GRPS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the profile belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpTool</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">GPRS tool of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpGPRS_APN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">GPRS APN of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpGPRS_Dialup</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">GPRS Dialup number of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpUsername</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Username of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Password of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpHotline</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Customer service hotline number of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpOperatorURL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(100)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator home URL of GPRS profile in PC</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idPC_GPRS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PC_GPRS_Profile_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pgpOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Phone
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idPhone</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of each mobile phone</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pHardwareNumber</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">The real hardware phone number of the mobile phone</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">pDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Phone description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idPhone<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">ResultType
+     <font class="fontS"><br>Result Type can be one of [Pass, Fail, Not Yet Test, Can Not Tested, Not Required] <br>(Inclusive, but not limited to.)</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idResultType</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Result Type ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">rtName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Result Type Name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">rtDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Result Type Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idResultType<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Severity
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSeverity</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Severity of a failed test case, value ranged from 0 to 5</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">sName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">The name of severity level, e.g. critical</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">sDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Description of this severity level</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSeverity<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SimCard
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSimCard</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sim Card ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scSIMType</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type of the SIM card, ID of SIM type</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scTrafficCharge</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Traffic charge profile used in SIM card</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_GPRS_Profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">GPRS Profile in MS of the SIM card used</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_MMS_Profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">MMS Profile in MS of the SIM card used</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_CSD_Profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CSD Profile in MS of the SIM card used</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPC_GPRS_Profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">GPRS Profile in PC of the SIM card used</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPC_CSD_Profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CSD Profile in PC of the SIM card used</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the SIM card, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPhoneNum</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sim card  phone number</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMobileFaxNum</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card mobile fax number</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scDataNum</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card mobile data num</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPIM</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(25)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card PIM code</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scStatus</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card status</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scBarring</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card Barring code</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPIN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card PIN code</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPUK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card PUK code</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPUK2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card PUK 2 code</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scFaxLinkNum</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card fax link number</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scConferenceCall</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(15)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM conference call support (number of concurrent party)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scDataRoamName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(30)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card roaming/data service name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scVMailPass</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM card voice mail password</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSimCard<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scTrafficCharge<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPC_CSD_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex3</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scPC_GPRS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex4</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_CSD_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex5</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_MMS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex6</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scMS_GPRS_Profile<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex7</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scOperator<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SimCard_FKIndex8</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scSIMType<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SIMType
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSIMType</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">stBand</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type supported band, ID of BandType</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">stGPRS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">BOOL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type support on GPRS (TRUE/FALSE)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">stLiveCall</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">BOOL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type live status (TRUE/FALSE)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSIMType<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SIMType_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">stBand<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SIMTypeServiceLink
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>lnkType</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">SIM type which link to a supplementary service, ID of SIM Type</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>lnkService</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Supplementary service which link to a SIM type, ID of Supplemntary Service</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">lnkType<br>lnkService<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SIMTypeServiceLink_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">lnkService<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SIMTypeServiceLink_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">lnkType<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SoftwareVersion
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSoftwareVersion</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Software version ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">svName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(30)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Software version name, e.g. 1.06.23</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">svDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Software version description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSoftwareVersion<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SubCategory
+     <font class="fontS"><br>Sub Category works under Category, like Time and Date Sub Category under Setting Category</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSubCategory</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sub Category ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scParentCategory</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sub Category's Parent Category ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sub Category Name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sub Category Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSubCategory<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">SubCategory_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">scParentCategory<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">SupplementaryService
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idSupplementaryService</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Supplementary service ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ssName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(30)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Supplementary service name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ssDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Supplementary service description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idSupplementaryService<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Test
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTest</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(20)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tSoftwareVersion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tCreator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(5)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Creator, ID of a tester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tDateStart</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATETIME</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Start Date</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tDateEnd</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATETIME</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test End Date</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTest<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Test_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tCreator<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Test_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tSoftwareVersion<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">TestCase
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTestCase</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(20)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcSubCategory</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcCategory</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcScript</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script of the test case (if any), ID of a test script</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcTestType</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case's test type, ID of a Test Type</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcDescription</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case name or description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcProcedure</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case procedure</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcExpectResult</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case expected result</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcSanity</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">BOOL</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case sanity, one of [True,False]</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcManTestCount</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Mandatory times that the test have to repeat</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTestCase<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestCase_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcSubCategory<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestCase_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcTestType<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestCase_FKIndex3</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcScript<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestCase_FKIndex4</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcCategory<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Testers
+     <font class="fontS"><br>Password field can be added if security feature is required.</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTester</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(5)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Tester ID ,e.g. WE001 or TE001</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Tester Name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Tester Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tPassword</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(10)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Tester Password</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTester<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">TestRecords
+     <font class="fontS"><br>Each test record is identified by a Test ID and a Test Case ID.</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>trTestCaseID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(20)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test case ID of the test record, one of the composite key</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>trTestID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(20)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test ID of the test record, one of the composite key</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trPhone</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trSeverity</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Severity of the test, severity is 0 to 5 if trResultType is FAIL, otherwise its always 0</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trSimCard</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Sim Card used in this test, ID of a Sim Card</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(5)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test record tester, ID of a tester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trResultType</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Result of the test case, ID of a result type</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trComment</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Comment of the test by the tester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trDDTS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">The CR record number assoicated with this test case</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTimeUsed</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">How long does the test take? Measured by minute</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trSuccCount</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">How many times did the test output expected result</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTestCaseID<br>trTestID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTestID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTestCaseID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex3</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trResultType<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex4</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trTester<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex5</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trSimCard<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex6</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trSeverity<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestRecords_FKIndex7</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">trPhone<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">TestScript
+     <font class="fontS"><br>The test script ID maybe set to the same as its associate test case ID</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTestScript</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>VARCHAR(20)</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsVaildator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(5)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script vaildator, ID of a tester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsSubmitter</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(5)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script submitter, ID of a tester</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsFilePath</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script file name and path</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsSubmitDate</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATETIME</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test script submitted date</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTestScript<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestScript_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsSubmitter<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TestScript_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tsVaildator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">TestType
+     <font class="fontS"><br>Test Type can be one of [Functional, Boundary condition,  Interactive, Issue,  Not yet classifed]<br>(Inclusive, but not limited to.)</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTestType</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Type ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ttName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Type Name</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ttDesc</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(255)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Test Type Description</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTestType<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">TrafficCharge
+     <font class="fontS"><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>idTrafficCharge</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID of traffic charge profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcOperator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Operator of the traffic charge belongs to, ID of Operator</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcName</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Name of this profile</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcVoice</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for voice service (Inter/Intra)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcDataFax</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for data & fax service</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcGPRS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for GPRS service</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcSMS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for SMS service</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcMMS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for MMS service</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcConferenceCall</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for Multi-party Conference Call</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcPushSMS</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Charge for Push SMS/Orangeworld Services</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">idTrafficCharge<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">TrafficCharge_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tcOperator<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+</body>
+
+</html>

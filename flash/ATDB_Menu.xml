@@ -1,0 +1,35 @@
+<menu label="Testing">
+	<menuItem label="Test Plan" instanceName="t1" />
+	<menuItem label="Test Case" instanceName="t2"/>
+	<menuItem label="Test Record" instanceName="t4"/>	
+	<menuItem label="My Test Task" instanceName="t3"/>
+</menu>
+<menu label="Resources">
+	<menuItem label="Tester" instanceName="r1"/>
+	<menuItem label="SIM Card" instanceName="r2"/>
+	<menuItem label="Phone" instanceName="r3"/>
+</menu>
+<menu label="Config">
+	<menuItem label="Test Properties">
+		<menuItem label="Test Type" instanceName="ct1"/>
+		<menuItem label="Result Type" instanceName="ct2"/>
+		<menuItem label="Severity" instanceName="ct3"/>
+		<menuItem label="Category" instanceName="ct4"/>
+		<menuItem label="Sub-Category" instanceName="ct5"/>
+		<menuItem label="SoftwareVersion" instanceName="ct6"/>
+	</menuItem>
+	<menuItem label="SIM Properties">
+		<menuItem label="Band" instanceName="cs1"/>
+		<menuItem label="Operator" instanceName="cs2"/>
+		<menuItem label="Card Type" instanceName="cs3"/>
+		<menuItem label="Traffic Charge" instanceName="cs4"/>
+		<menuItem label="Supplementary Services" instanceName="cs5"/>
+	</menuItem>
+	<menuItem label="Profile">
+		<menuItem label="PC CSD Profile" instanceName="cp1"/>
+		<menuItem label="PC GPRS Profile" instanceName="cp2"/>
+		<menuItem label="MS GPRS Profile" instanceName="cp3"/>
+		<menuItem label="MS MMS Profile" instanceName="cp4"/>
+		<menuItem label="MS CSD Profile" instanceName="cp5"/>
+	</menuItem>
+</menu>
